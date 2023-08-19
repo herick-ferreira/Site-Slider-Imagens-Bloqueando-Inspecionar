@@ -1,4 +1,4 @@
-﻿# Site com Bloquei de Inspecionador
+﻿# Site com Bloqueio de Inspecionador
 
 
 
@@ -8,6 +8,6 @@ Site com bloqueio de inspecionador e imagens de slide com responsividade
 <br/>
 <br/>
 <p>
-	<img width="300" height="300" src="./Imagens/Exemplo-2.jpg"/>
+	<img width="666" height="313" src="./Imagens/Exemplo.jpg">
 </p>"# Site-Slider-Imagens-Bloqueando-Inspecionar" 
 "# Site-Slider-Imagens-Bloqueando-Inspecionar" 

@@ -1,0 +1,1 @@
+# Site-Slider-Imagens-Bloqueando-Inspecionar

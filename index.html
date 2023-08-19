@@ -1,0 +1,104 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Website Image Slider means the features on the website header or hero section where the user can slide images by clicking on the nav button or as well as by grabbing the image too. Also, there is pagination that shows how many images that website has on the harder section. We can see such type of features in many types of websites like e-commerce, sports, newspaper, travel/tour, and many many others."
+    />
+    <meta
+      name="keywords"
+      content="Card Design,card slider in swiperjs,css card slider,how to make carousel,html card slider,Image Carousel,Image Slider,javascript card slider,Website Section
+HTML,CSS,JavaScript,Bootstrap,Tailwind,"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Image Slider HTML CSS JavaScript</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./Style/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Style/style.css" />
+
+    <link rel="stylesheet" href="./Style/custom-styles.css" />
+    <script src="./Javascript/custom-scripts.js" defer></script>
+    <style>
+      .download-btn-cn a {
+        background: none;
+        color: #fff;
+        border: 2px solid #fff;
+      }
+      .download-btn-cn a:hover {
+        color: #c87e4f;
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="download-btn-cn">
+      <a href="https://www.google.com" target="_blank">Download dos Arquivos</a>
+    </div>
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="./Imagens/imagem-natureza-1.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Eclesiastes 3:1,2</span>
+            <h2>
+              Há um momento certo para tudo, <br/>um tempo para cada atividade debaixo do céu.
+Há tempo de nascer,<br/> e tempo de morrer; tempo de plantar, e tempo de colher.
+            </h2>
+            <a href="#" class="button">Sobre nós</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="./Imagens/imagem-natureza-2.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Mateus 10:29</span>
+            <h2>
+		Não se vendem dois pardais por uma moedinha?<br />
+              Contudo, nenhum deles cai no chão<br /> sem o consentimento do Pai de vocês.
+            </h2>
+            <a href="#" class="button">Sobre nós</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="./Imagens/imagem-natureza-3.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Salmos 104:13</span>
+            <h2>
+              Dos teus aposentos celestes
+		regas os montes;<br />
+		sacia-se a terra com o fruto das tuas obras!
+            </h2>
+            <a href="#" class="button">Sobre nós</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="./Javascript/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
